@@ -664,12 +664,11 @@ pubs = [
     ["5", "Механизмы деградации, вызванные циклами замерзания–оттаивания, в фотоэлектрических модулях в условиях холодного климата // Учёные записки физического факультета МГУ (ВАК). 2025", ok("Опубликована")],
     ["6", "Photovoltaic Potential in the Subarctic Region // Научно-технические ведомости СПбГПУ. Физ.-мат. науки. 2024. Т. 17, № 3.2", ok("Опубликована")],
     ["7", "Features of Photovoltaic Cell Degradation of Solar Power Plants in Hong Kong and Saint Petersburg // Научно-технические ведомости СПбГПУ. Физ.-мат. науки. 2023. Т. 16, № 3.2. С. 44–49", ok("Опубликована")],
-    ["8", "Performance Analysis and Optimization of Agrivoltaic Systems in High Latitude Regions // PSSGT 2026, Чунцин, Китай", ok("Принята")],
-    ["9", "Impact of Self-Shading on Solar Irradiance for Venlo Greenhouse Agrivoltaics in High Latitudes // PSRE 2025", ok("Доклад, 2025")],
-    ["10", "Performance Challenges of Photovoltaic Modules in Subarctic Environments // ElCon, СПбГЭТУ «ЛЭТИ»", ok("Доклад")],
-    ["11", "Search for New Solutions to Improve the Efficiency of Solar Cells Using in Saint Petersburg and Hong Kong // EExPolytech 2023 (IEEE). С. 348–351", ok("Опубликована")],
+    ["8", "Impact of Self-Shading on Solar Irradiance for Venlo Greenhouse Agrivoltaics in High Latitudes // PSRE 2025", ok("Доклад, 2025")],
+    ["9", "Performance Challenges of Photovoltaic Modules in Subarctic Environments // ElCon, СПбГЭТУ «ЛЭТИ»", ok("Доклад")],
+    ["10", "Search for New Solutions to Improve the Efficiency of Solar Cells Using in Saint Petersburg and Hong Kong // EExPolytech 2023 (IEEE). С. 348–351", ok("Опубликована")],
 ]
-table(s, 0.45, 1.1, 12.45, pubs, [0.45, 10.2, 1.8], row_h=0.48, size=10.5,
+table(s, 0.45, 1.1, 12.45, pubs, [0.45, 10.2, 1.8], row_h=0.52, size=10.5,
       aligns=[PP_ALIGN.CENTER, PP_ALIGN.LEFT, PP_ALIGN.LEFT])
 notes(s, "Слайд 13. Публикации по теме проекта.")
 
@@ -681,7 +680,7 @@ concl = [
     "Типичный метеорологический год описывает типичную, а не расчётную зиму: дефицит света занижен на 3,9–5,7 % (3,4–6,7 % в современном климате), максимальная 30-суточная потребность в тепле — на 6,6–18,2 %.",
     "Мощность досветки (113–118 Вт/м²) задаётся целевым DLI, фотопериодом и эффективностью ламп; тепло ламп покрывает 10–34 % отопления; совмещённый электрический пик — 76–90 % суммы раздельных пиков.",
     "ERA5 занижает дефицит света на 12,1 % (Леруик) и 4,1 % (Тыравере); в Тыравере — даже при почти точной сезонной сумме радиации (+0,8 %).",
-    "Результаты апробированы в 11 работах: 7 статей в журналах (IEEE Access, ЖТФ, ФТП, Вестник ТОГУ, Учёные записки физфака МГУ, НТВ СПбГПУ) и 4 доклада на международных конференциях (EExPolytech, ElCon, PSRE, PSSGT).",
+    "Результаты апробированы в 10 работах: 7 статей в журналах (IEEE Access, ЖТФ, ФТП, Вестник ТОГУ, Учёные записки физфака МГУ, НТВ СПбГПУ) и 3 доклада на международных конференциях (EExPolytech, ElCon, PSRE).",
 ]
 y = 1.12
 for i, c in enumerate(concl, 1):
